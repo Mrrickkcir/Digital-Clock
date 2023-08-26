@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+body{
+    font-family: 'Black Ops One', cursive;
+    overflow: hidden;
+    background: conic-gradient(from 90deg at 50% 125%, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00);
+}
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+.digitalclock{
+    
+    padding: 20px;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.219);
+}
+.digitalclock h1{
+    display: inline-block;
+    margin:0 10px;
+    font-weight: bold;
+    font-size: 90px;
+
+}
+@media (max-width:1024px){
+    #dots{
+        display: none;
+    }
+    .digitalclock{
+        text-align: center;
+
+    }
+    .digitalclock h1{
+        display: block;
+        font-size: 70px;
+    }
+}
+@media (max-width: 768px){
+    .digitalclock{
+        font-size: 50px;
+    }
+}
+
